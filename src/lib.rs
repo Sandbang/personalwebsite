@@ -1,9 +1,8 @@
-use components::cohort::navigation_bar::Navbar;
 use components::cohort::social_media::SocialMedia;
 mod components;
-mod router;
+mod pages;
+use pages::home::Home;
 use yew_router::prelude::*;
-use crate::router::{switch, Route};
 
 
 use stylist::yew::styled_component;
@@ -18,9 +17,7 @@ pub fn app() -> Html {
     let stylesheet = Style::new(STYLE_FILE);
     html!{
         <>
-            <BrowserRouter>
-                <Switch<Route>render={switch} />
-            </BrowserRouter>
+            <Home />
         </>
     }
 }   

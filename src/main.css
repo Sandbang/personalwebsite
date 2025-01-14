@@ -21,64 +21,27 @@ main{
 
 h1{
     text-align: center;
-}
-
-.navbar{
-    background-color: hsl(0, 0%, 25%);
-    text-align: center;
-}
-
-.navbar ul{
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    display: inline-flex;
-    text-align: center;
-    border-radius: 5% 5% 5% 5%;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px ;
-    display: block;
-    text-align: center;
-    border-radius: 5% 5% 5% 5%;
-    
-
-}
-
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+    font-size:xx-large;
 }
 
 .SocialMedia {
     position: fixed;
     bottom: 0;
 }
-.Design {
+.Built {
     position: fixed;
     bottom: 0;
     float: right;
     font-size: 75%
 }
 
-.Content2 div {
-    width: 34%;
-    text-align: center;
-    outline-width: 5px;
-}
-.Content2 p {
+.Content p {
     text-align: center;
     width: 34%;
-    max-width: 250px;
-}
-.Content2 h1 {
-    text-align: center;
+    max-width: 350px;
+    font-size: x-large;
 }
 
-.Content {
-    width: 34%;
-    text-align: center;
+.Content2 {
+    padding-top: 200px;
 }
-
