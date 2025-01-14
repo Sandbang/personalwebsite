@@ -17,6 +17,7 @@ pub fn home() -> Html {
                 <p>{"EE at UC Davis, interested in HDL, DS&A and backend. I also like to read"}</p>
                 <h1 >{"languages"}</h1>
                 <p><bdi>{"Interested in "}</bdi><bdi style={"color: red"}>{"SystemVerilog"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: #d05a27"}>{"Rust"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: #228587"}>{"Matlab"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: 	#FFA500"}>{"Java"}</bdi> <bdi>{" and "} </bdi> <bdi style = {"color: 	#00FF00"}>{"React"}</bdi></p>
+                <h1><a href={"betaredact.dev"}>{"βredact"}</a></h1><p>{"A blog with writings about things I am interested in. // WORK IN PROGRESS"}</p>
                 <h1>{"inquiry"}</h1>
                 <p>{"micserokurov@ucdavis.edu"}</p>
 
@@ -25,7 +26,7 @@ pub fn home() -> Html {
                 <div class={"SocialMedia"}><SocialMedia /></div>
                 <div class={"Built"}> <p> <bdi>{"built entirely in"}</bdi> <bdi style = {"color: #d05a27"}>{" Rust "}</bdi> {"using"} {" "} <a href={"https://docs.rs/yew/latest/yew/"} target={"_blank"} >{"yew.rs"}</a></p></div>
                 <div class = {"Content"}>
-                <h1><a href={"betaredact.dev"}>{"βredact"}</a><p>{"A blog with writings about things I am interested in. // WORK IN PROGRESS"}</p></h1>
+                
                 <p>{""}</p>
                 <a/>
             </div>
