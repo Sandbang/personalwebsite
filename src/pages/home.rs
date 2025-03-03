@@ -14,7 +14,7 @@ pub fn home() -> Html {
             <body  class = {stylesheet.unwrap()}>
                 <div class={"Content"}>
                 <h1 >{"about me"}</h1>
-                <p>{"EE at UC Davis, interested in: HDL, research in Physics, Electrical Engineering and Computer Science, and low level programming. I also like to read"}</p>
+                <p>{"EE at UC Davis, interested in: HDL, research in Physics, EE and CS, and low level programming. I also like to read"}</p>
                 <h1 >{"languages"}</h1>
                 <p><bdi>{"Interested in "}</bdi><bdi style={"color: red"}>{"SystemVerilog"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: #d05a27"}>{"Rust"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: #228587"}>{"Matlab"}</bdi> <bdi>{", "}</bdi> <bdi style = {"color: 	#FFA500"}>{"Python"}</bdi> <bdi>{" and "} </bdi> <bdi style = {"color: 	#00FF00"}>{"C"}</bdi></p>
                 <h1><a href={"https://www.betaredaction.com/"}>{"βredaction"}</a></h1><p>{"A blog with writings and my projects. // WORK IN PROGRESS"}</p>
