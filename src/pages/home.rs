@@ -14,7 +14,7 @@ pub fn home() -> Html {
             <body  class = {stylesheet.unwrap()}>
                 <div class={"Content"}>
                 <h1 >{"about me"}</h1>
-                <p>{"EE at UC Davis, interested in: HDL, research in Physics, EE and CS, and low level programming. I also like to read"} </p>
+                <p>{"Electrical Engineering and Pure Math at UC Davis; interested in: HDL, low level programming and research in Physics, EE/CS and Topology. I also like to read"} </p>
                 <h2 ><bdi style={"color: red"}><a href={"https://www.youtube.com/watch?v=zoo9Vu1a9bU"} target={"_blank"}>{" 'You Can Just Do Things'"}</a></bdi></h2>
                 
                 <bdi ></bdi>
